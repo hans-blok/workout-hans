@@ -194,7 +194,7 @@ def sync_governance(genesis_root, workspace_root, dry_run, backup_dir):
 
 
 def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_dir):
-    """Sync agent componenten (alle agents uit Genesis behalve Logos)"""
+    """Sync agent componenten (alle agents uit Genesis)"""
     print_header("Agent Componenten")
     
     # Detecteer alle agents in Genesis
@@ -204,8 +204,8 @@ def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_di
     if genesis_agents_dir.exists():
         for rolbeschrijving in genesis_agents_dir.glob("*.md"):
             agent_name = rolbeschrijving.stem
-            # Skip Logos en niet-agent bestanden
-            if agent_name not in ["logos", "README", "template"]:
+            # Skip niet-agent bestanden (als die er zijn)
+            if agent_name not in ["README", "template"]:
                 agents.append(agent_name)
         
         print_info(f"Gevonden agents in Genesis: {', '.join(agents)}")
@@ -376,7 +376,7 @@ Voorbeelden:
 
 Componenten:
   governance  - Governance documenten (gedragscode, workspace-standaard, agent-standaard)
-  agents      - Agent componenten (alle agents behalve Logos: moeder, rolbeschrijver, publisher, etc.)
+  agents      - Agent componenten (alle agents uit Genesis: moeder, rolbeschrijver, publisher, etc.)
   scripts     - Utility scripts (create-agent.py, fetch-genesis.py)
   all         - Alles (default)
 
