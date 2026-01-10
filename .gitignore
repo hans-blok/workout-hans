@@ -1,0 +1,28 @@
+# Conform workspace-standaard.md
+
+# Tijdelijke context folder
+/temp/
+
+# Editor bestanden
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS bestanden
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Notities en drafts
+*.draft.md
+*.wip.md
