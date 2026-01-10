@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Hans - Trainingsschema's</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .schema-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .schema-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .schema-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .schema-card.kracht {
+            border-left-color: #27ae60;
+        }
+        .schema-card.tennis {
+            border-left-color: #e74c3c;
+        }
+        .schema-card h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        .schema-card p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .schema-card .tag {
+            display: inline-block;
+            background: #ecf0f1;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            color: #555;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+        }
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .schema-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💪 Workout Hans</h1>
+        <p class="subtitle">Trainingsschema's voor kracht en tennis</p>
+        
+        <div class="schema-grid">
+            <a href="weekschema-kracht.html" class="schema-card kracht">
+                <h2>🏋️ Krachttraining</h2>
+                <p>Weekschema gericht op scapula controle, chin-ups en been-symmetrie.</p>
+                <p><strong>Focus:</strong> Kracht, symmetrie, schouderklachten voorkomen</p>
+                <span class="tag">4x per week</span>
+            </a>
+            
+            <a href="tennis-schema-2026-01-10.html" class="schema-card tennis">
+                <h2>🎾 Tennis Training</h2>
+                <p>Sessie van 60 minuten met warming-up, voetenwerk en conditie.</p>
+                <p><strong>Focus:</strong> Voetenwerk, explosiviteit, visuele vaardigheden</p>
+                <span class="tag">1x per week</span>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Voor:</strong> Hans (55 jaar, klompvoet links)</p>
+            <p><strong>Gemaakt:</strong> Januari 2026</p>
+            <p><a href="https://github.com/hansolo-nl/workout-hans" target="_blank">View on GitHub</a></p>
+        </div>
+    </div>
+</body>
+</html>

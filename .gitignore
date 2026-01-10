@@ -3,6 +3,14 @@
 # Tijdelijke context folder
 /temp/
 
+# Backups
+.backups/
+*.backup
+*.bak
+
+# Init script (workspace setup)
+init-workspace.py
+
 # Editor bestanden
 .vscode/
 .idea/
