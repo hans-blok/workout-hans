@@ -9,7 +9,7 @@
 *.bak
 
 # Init script (workspace setup)
-init-workspace.py
+scripts/init-workspace.py
 
 # Editor bestanden
 .vscode/

@@ -19,22 +19,12 @@ Dit schema combineert de belangrijkste aspecten voor betere tennisprestaties in 
 
 **Doel**: Spieren activeren en lichaam voorbereiden op tennis-specifieke bewegingen.
 
-**Oefeningen**:
-1. **Armcirkels** - 2×10 per richting
-   - Draai je armen in grote cirkels (eerst voorwaarts, dan achterwaarts).
-   - Focuspunt: Ontspannen schouders.
-
-2. **Heupopeners** - 2×8 per been
-   - Til je knie op en draai het been naar buiten, zet de voet neer.
-   - Focuspunt: Mobiliteit van de heupen.
-
-3. **Lateral lunges** - 2×6 per kant
-   - Stap breed opzij, buig door één been, ander been blijft gestrekt.
-   - Focuspunt: Extra aandacht voor linkerbeen (klompvoet).
-
-4. **Armzwaaien met stap** - 2×10
-   - Loop vooruit, zwaai je armen afwisselend over elkaar.
-   - Focuspunt: Dynamische beweging, losse schouders.
+| Oefening | Herhaling | Focuspunt |
+|----------|-----------|-----------|
+| **Armcirkels** | 2×10 per richting | Ontspannen schouders |
+| **Heupopeners** | 2×8 per been | Mobiliteit van de heupen |
+| **Lateral lunges** | 2×6 per kant | Extra aandacht voor linkerbeen (klompvoet) |
+| **Armzwaaien met stap** | 2×10 | Dynamische beweging, losse schouders |
 
 ---
 
@@ -42,12 +32,10 @@ Dit schema combineert de belangrijkste aspecten voor betere tennisprestaties in 
 
 **Doel**: Snellere reactie, betere balans en positionering op de baan.
 
-**Oefeningen**:
-1. **Split-step herhaling** - 3×10
-   - Spring licht van de grond en land met beide voeten tegelijk in een brede stand.
-   - Focuspunt: Land op de bal van je voet, klaar om te bewegen.
-
-2. **Zijwaartse schuifpassen** - 3×10 meter per richting
+| Oefening | Herhaling | Focuspunt |
+|----------|-----------|-----------|
+| **Split-step herhaling** | 3×10 | Land op de bal van je voet, klaar om te bewegen |
+| **Zijwaartse schuifpassen** | 3×10 meter per richting |
    - Schuif snel zijwaarts zonder kruisen van de benen.
    - Focuspunt: Blijf laag, gewicht op de bal van je voet.
 

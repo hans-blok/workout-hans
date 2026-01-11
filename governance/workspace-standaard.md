@@ -43,19 +43,40 @@ README.md               # Repository overzicht en getting started
 #### `/docs` - Documentatie
 **Doel**: Alle inhoudelijke documentatie die het primaire doel van de repository vormt.
 
-**Structuur** (suggestie):
+**Structuur**:
 ```
 /docs
-  /procedures           # Hoe-documentatie
-  /policies            # Wat-documentatie
-  /guidelines          # Best practices en richtlijnen
-  /references          # Naslagwerk en definities
+  /resultaten/         # Agent output (per agent een subfolder)
+    /{agent-naam}/     # Resultaten van workspace-specifieke agents
+  /procedures          # Algemene procedures (optioneel)
+  /policies           # Algemene policies (optioneel)
+  /guidelines         # Best practices en richtlijnen (optioneel)
+  /references         # Naslagwerk en definities (optioneel)
 ```
 
+**Agent Resultaten** (alleen voor workspace-specifieke agents):
+- Workspace-specifieke agents leggen hun output vast in `/docs/resultaten/{agent-naam}/`
+- **Verplicht**: Alle gegenereerde content (.md) moet in deze subfolder worden geplaatst.
+- **Niet voor Genesis standaard agents** (moeder, rolbeschrijver, publisher, logos)
+- Alleen voor agents die specifiek voor deze workspace zijn aangemaakt
+- Bijvoorbeeld:
+  - `/docs/resultaten/data-validator/` - Validatie rapporten (workspace-specifiek)
+  - `/docs/resultaten/report-generator/` - Gegenereerde rapporten (workspace-specifiek)
+  - `/docs/resultaten/quality-checker/` - Kwaliteitsanalyses (workspace-specifiek)
+- Agent naam altijd lowercase met hyphens
+- Bevat alleen output/resultaten, geen bronbestanden
+
+**Agent Output Formaten**:
+- **Standaard**: Alle agents schrijven resultaten in Markdown (.md) of Python (.py)
+- **Uitzondering**: Publisher mag alle formaten creëren (HTML, etc.)
+- Markdown voor documentatie, rapporten, analyses
+- Python voor scripts, utilities, automation
+
 **Eisen**:
-- Elk document in Markdown (.md) format
+- Elk document in Markdown (.md) format (tenzij Python script of Publisher output)
 - Duidelijke bestandsnamen (lowercase, geen spaties, gebruik hyphens)
 - Maximaal 3 niveaus diep
+- Agent folders in /resultaten voor duidelijke scheiding tussen documentatie en agent output
 
 #### `/governance` - Governance
 **Doel**: Regels, normen en structuur van de workspace zelf.

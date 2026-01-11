@@ -114,20 +114,6 @@ def files_identical(file1, file2):
     return file_hash(file1) == file_hash(file2)
 
 
-def backup_file(filepath, backup_dir):
-    """Maak backup van bestand"""
-    if not filepath.exists():
-        return None
-    
-    backup_dir.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_name = f"{filepath.stem}_{timestamp}{filepath.suffix}"
-    backup_path = backup_dir / backup_name
-    
-    shutil.copy2(filepath, backup_path)
-    return backup_path
-
-
 def extract_workspace_name(beleid_path):
     """Extract workspace naam uit beleid.md"""
     if not beleid_path.exists():
@@ -147,7 +133,7 @@ def extract_workspace_name(beleid_path):
     return None
 
 
-def sync_governance(genesis_root, workspace_root, dry_run, backup_dir):
+def sync_governance(genesis_root, workspace_root, dry_run):
     """Sync governance documenten"""
     print_header("Governance Documenten")
     
@@ -178,12 +164,6 @@ def sync_governance(genesis_root, workspace_root, dry_run, backup_dir):
         if dry_run:
             print_update(f"{rel_path} (zou worden geüpdatet)")
         else:
-            # Backup maken indien bestaat
-            if dst.exists():
-                backup_path = backup_file(dst, backup_dir / "governance")
-                print_info(f"Backup: {backup_path.name}")
-            
-            # Kopieer
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, dst)
             print_update(f"{rel_path}")
@@ -193,7 +173,7 @@ def sync_governance(genesis_root, workspace_root, dry_run, backup_dir):
     return updated, skipped
 
 
-def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_dir):
+def sync_agents(genesis_root, workspace_root, workspace_name, dry_run):
     """Sync agent componenten (alle agents uit Genesis behalve Logos)"""
     print_header("Agent Componenten")
     
@@ -236,10 +216,6 @@ def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_di
                 if dry_run:
                     print_update(f"{agent} rolbeschrijving (zou worden geüpdatet)")
                 else:
-                    if rolbeschrijving_dst.exists():
-                        backup_path = backup_file(rolbeschrijving_dst, backup_dir / "rolbeschrijvingen")
-                        print_info(f"Backup: {backup_path.name}")
-                    
                     rolbeschrijving_dst.parent.mkdir(parents=True, exist_ok=True)
                     rolbeschrijving_dst.write_text(content, encoding="utf-8")
                     print_update(f"{agent} rolbeschrijving")
@@ -263,10 +239,6 @@ def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_di
                 if dry_run:
                     print_update(f"{agent} prompt (zou worden geüpdatet)")
                 else:
-                    if prompt_dst.exists():
-                        backup_path = backup_file(prompt_dst, backup_dir / "prompts")
-                        print_info(f"Backup: {backup_path.name}")
-                    
                     prompt_dst.parent.mkdir(parents=True, exist_ok=True)
                     prompt_dst.write_text(content, encoding="utf-8")
                     print_update(f"{agent} prompt")
@@ -285,10 +257,6 @@ def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_di
                 if dry_run:
                     print_update(f"{agent} runner (zou worden geüpdatet)")
                 else:
-                    if runner_dst.exists():
-                        backup_path = backup_file(runner_dst, backup_dir / "scripts")
-                        print_info(f"Backup: {backup_path.name}")
-                    
                     runner_dst.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(runner_src, runner_dst)
                     print_update(f"{agent} runner")
@@ -298,7 +266,7 @@ def sync_agents(genesis_root, workspace_root, workspace_name, dry_run, backup_di
     return updated, skipped
 
 
-def sync_scripts(genesis_root, workspace_root, dry_run, backup_dir):
+def sync_scripts(genesis_root, workspace_root, dry_run):
     """Sync utility scripts"""
     print_header("Utility Scripts")
     
@@ -325,10 +293,6 @@ def sync_scripts(genesis_root, workspace_root, dry_run, backup_dir):
         if dry_run:
             print_update(f"{rel_path} (zou worden geüpdatet)")
         else:
-            if dst.exists():
-                backup_path = backup_file(dst, backup_dir / "scripts")
-                print_info(f"Backup: {backup_path.name}")
-            
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, dst)
             print_update(f"{rel_path}")
@@ -379,8 +343,6 @@ Componenten:
   agents      - Agent componenten (alle agents behalve Logos: moeder, rolbeschrijver, publisher, etc.)
   scripts     - Utility scripts (create-agent.py, fetch-genesis.py)
   all         - Alles (default)
-
-Backups worden opgeslagen in: .backups/genesis-sync/YYYYMMDD_HHMMSS/
 
 Let op: Script doet automatisch een git pull in Genesis repository voor laatste versie
         """
@@ -441,10 +403,6 @@ Let op: Script doet automatisch een git pull in Genesis repository voor laatste 
         print_warning("Workspace naam niet gevonden in beleid.md, gebruik 'workspace'")
         workspace_name = "workspace"
     
-    # Backup directory
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_dir = workspace_root / f".backups/genesis-sync/{timestamp}"
-    
     # Parse components
     components = args.components.lower().split(",")
     if "all" in components:
@@ -462,27 +420,22 @@ Let op: Script doet automatisch een git pull in Genesis repository voor laatste 
     
     # Sync componenten
     if "governance" in components:
-        updated, skipped = sync_governance(genesis_root, workspace_root, args.dry_run, backup_dir)
+        updated, skipped = sync_governance(genesis_root, workspace_root, args.dry_run)
         all_updates.extend(updated)
         all_skips.extend(skipped)
     
     if "agents" in components:
-        updated, skipped = sync_agents(genesis_root, workspace_root, workspace_name, args.dry_run, backup_dir)
+        updated, skipped = sync_agents(genesis_root, workspace_root, workspace_name, args.dry_run)
         all_updates.extend(updated)
         all_skips.extend(skipped)
     
     if "scripts" in components:
-        updated, skipped = sync_scripts(genesis_root, workspace_root, args.dry_run, backup_dir)
+        updated, skipped = sync_scripts(genesis_root, workspace_root, args.dry_run)
         all_updates.extend(updated)
         all_skips.extend(skipped)
     
     # Samenvatting
     print_summary(all_updates, all_skips, args.dry_run)
-    
-    # Backups info
-    if not args.dry_run and all_updates and backup_dir.exists():
-        print()
-        print(f"💾 Backups opgeslagen in: {backup_dir}")
     
     return 0
 
