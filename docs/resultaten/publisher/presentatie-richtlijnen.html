@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>presentatie-richtlijnen</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../styles/publisher.css" />
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#presentatie-richtlijnen-workout-hans"
+id="toc-presentatie-richtlijnen-workout-hans">Presentatie-richtlijnen –
+Workout Hans</a>
+<ul>
+<li><a href="#basisprincipes"
+id="toc-basisprincipes">Basisprincipes</a></li>
+<li><a href="#structuur-van-de-publicatie"
+id="toc-structuur-van-de-publicatie">Structuur van de publicatie</a>
+<ul>
+<li><a href="#landingspagina"
+id="toc-landingspagina">Landingspagina</a></li>
+<li><a href="#bestandslocaties"
+id="toc-bestandslocaties">Bestandslocaties</a></li>
+</ul></li>
+<li><a href="#navigatiepatroon"
+id="toc-navigatiepatroon">Navigatiepatroon</a></li>
+<li><a href="#visuele-stijl" id="toc-visuele-stijl">Visuele
+stijl</a></li>
+<li><a href="#patronen-voor-schema-overzichten"
+id="toc-patronen-voor-schema-overzichten">Patronen voor
+schema-overzichten</a></li>
+<li><a href="#samenwerking-met-publisher"
+id="toc-samenwerking-met-publisher">Samenwerking met Publisher</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="presentatie-richtlijnen-workout-hans">Presentatie-richtlijnen –
+Workout Hans</h1>
+<p><strong>Doel</strong>: Rustige, duidelijke presentatie van de
+trainingsschema’s voor Hans, passend bij de workspace
+<em>workout-hans</em>.</p>
+<hr />
+<h2 id="basisprincipes">Basisprincipes</h2>
+<ul>
+<li><strong>Rustig en eenvoudig</strong>: weinig visuele ruis, veel
+witruimte.</li>
+<li><strong>Japans minimalisme</strong>: zachte aardetinten, simpele
+vormen, geen drukke effecten.</li>
+<li><strong>B1-taal</strong>: korte zinnen, duidelijke koppen, logische
+volgorde.</li>
+<li><strong>Geen inhoud wijzigen</strong>: alleen presentatie (indeling,
+navigatie, stijl).</li>
+</ul>
+<hr />
+<h2 id="structuur-van-de-publicatie">Structuur van de publicatie</h2>
+<h3 id="landingspagina">Landingspagina</h3>
+<ul>
+<li>Bestandsnaam: <code>docs/index.html</code>.</li>
+<li>Functie: startpunt voor Hans om zijn schema’s te vinden.</li>
+<li>Bevat <strong>tegels</strong> (kaarten) voor:
+<ul>
+<li>Krachttraining (weekschema)</li>
+<li>Tennis training (1x per week, 60 minuten)</li>
+<li>Ochtend yoga &amp; mobility (dagelijks kort ritueel)</li>
+</ul></li>
+<li>Elke tegel toont:
+<ul>
+<li>Een duidelijke titel met emoji (🏋️, 🎾, 🧘).</li>
+<li>1–2 korte zinnen met uitleg.</li>
+<li>Een subtiele tag (bijv. “4x per week”).</li>
+</ul></li>
+</ul>
+<h3 id="bestandslocaties">Bestandslocaties</h3>
+<ul>
+<li>Inhoudelijke markdown-bestanden:
+<ul>
+<li><code>docs/resultaten/personal-trainer/*.md</code></li>
+<li><code>docs/resultaten/tennis-trainer/*.md</code></li>
+</ul></li>
+<li>Gepubliceerde HTML (Publisher output):
+<ul>
+<li><code>docs/resultaten/publisher/*.html</code></li>
+</ul></li>
+<li><code>index.html</code> blijft in <code>docs/</code> staan (root van
+de publicatie).</li>
+<li>De landingspagina linkt naar de <strong>Publisher-HTML</strong> in
+<code>docs/resultaten/publisher/</code>.</li>
+</ul>
+<hr />
+<h2 id="navigatiepatroon">Navigatiepatroon</h2>
+<ul>
+<li>Lezer start op <code>index.html</code>.</li>
+<li>Van daaruit kiest Hans één van de drie schema’s:
+<ul>
+<li><strong>Krachttraining</strong> → weekschema kracht (4x per
+week).</li>
+<li><strong>Tennis training</strong> → tennisschema (1x per week, 60
+min).</li>
+<li><strong>Ochtend mobility</strong> → kort dagelijks ritueel na het
+ontbijt.</li>
+</ul></li>
+<li>Elke HTML-pagina van Publisher gebruikt dezelfde rustige, minimale
+stijl (via eenvoudige CSS).</li>
+</ul>
+<hr />
+<h2 id="visuele-stijl">Visuele stijl</h2>
+<ul>
+<li>Achtergrond: warm, licht beige (<code>#f4f1ea</code>).</li>
+<li>Kaarten: zacht crèmekleurig (<code>#fffcf8</code> /
+<code>#fdfbf7</code>).</li>
+<li>Lijnen en randen: dunne, subtiele grijs/beige tinten.</li>
+<li>Kleurenaccenten:
+<ul>
+<li>Kracht: gedempt groen/grijs (<code>#6b705c</code>).</li>
+<li>Tennis: warm bruin/oranje (<code>#cb997e</code>).</li>
+<li>Ochtend-mobility: zacht blauwgroen of neutrale tint (kan later
+worden toegevoegd indien nodig).</li>
+</ul></li>
+<li>Animaties: alleen lichte hover-effecten (kleine schaduw, minieme
+verschuiving).</li>
+</ul>
+<hr />
+<h2 id="patronen-voor-schema-overzichten">Patronen voor
+schema-overzichten</h2>
+<ul>
+<li>Waar mogelijk worden oefeningen per training gepresenteerd in
+<strong>tabellen</strong>:
+<ul>
+<li>Kolommen: oefening, sets x reps / duur, notities.</li>
+<li>Dit verhoogt de scanbaarheid zonder de inhoud aan te passen.</li>
+</ul></li>
+<li>Korte inleidingen per trainingsdag of sessie blijven boven de
+tabellen staan.</li>
+</ul>
+<hr />
+<h2 id="samenwerking-met-publisher">Samenwerking met Publisher</h2>
+<ul>
+<li>Publisher converteert alle <code>.md</code>-schema’s naar
+<code>.html</code> in <code>docs/resultaten/publisher/</code>.</li>
+<li>Presentatie Architect zorgt dat <code>index.html</code> naar deze
+HTML-bestanden linkt.</li>
+<li>Er wordt geen inhoud in de <code>.md</code>-bestanden veranderd door
+deze rol; alleen de landingspagina en richtlijnen worden aangepast.</li>
+</ul>
+<hr />
+<p><strong>Versie</strong>: 1.0<br />
+<strong>Laatst bijgewerkt</strong>: 12 januari 2026</p>
+</body>
+</html>

@@ -35,6 +35,14 @@ Richtlijnen:
 | Single-leg calf raises | 4×10 links / 2×10 rechts | |
 | Side plank | 3×30–45 sec | extra set links |
 
+### Korte uitleg oefeningen (Maandag)
+
+- **Romanian Deadlift**: sta rechtop met halter dicht bij je benen, maak een langzame vooroverbuiging vanuit de heupen met een rechte rug, voel vooral de achterkant van je benen werken.
+- **Goblet Squat**: houd een gewicht voor je borst, zak rustig omlaag terwijl je knieën in de richting van je tenen blijven, duw gecontroleerd weer omhoog.
+- **Bulgarian Split Squat**: achterste voet op een bankje, voorste voet stevig op de grond; zak omlaag tot je een stevige maar draaglijke spanning voelt in voor- en achterbeen, vooral links extra aandacht.
+- **Single-leg calf raises**: houd je vast aan iets stabiels, duw je langzaam omhoog op één voet en laat weer rustig zakken; links wat meer volume voor extra aandacht.
+- **Side plank**: steun op je onderarm en zijkant van je voet of knie, houd je lichaam zo recht mogelijk, adem rustig door.
+
 ---
 
 ## Dinsdag – Scapula & Chin-ups (45 min, vóór tennis)
@@ -45,6 +53,13 @@ Richtlijnen:
 | Scapular pull-ups | 5×5 | |
 | Chin-ups (licht) | 3×4 | |
 | Mobiliteit | | thoracic + schouder |
+
+### Korte uitleg oefeningen (Dinsdag)
+
+- **Scapular hangs**: hang aan de stang met gestrekte armen, laat je schouders gecontroleerd “uitzakken” en trek ze daarna zachtjes omlaag en iets naar achteren zonder je ellebogen te buigen.
+- **Scapular pull-ups**: begin in hang, beweeg alleen vanuit de schouderbladen (naar beneden en naar achteren) zodat je borst iets richting stang komt, armen blijven bijna gestrekt.
+- **Chin-ups (licht)**: onderhandse greep, trek jezelf op tot je kin boven de stang komt, laat jezelf rustig en gecontroleerd zakken; kies een niveau waarbij je ruim herhalingen “over” houdt.
+- **Mobiliteit (thoracic + schouder)**: korte reeks oefeningen voor bovenrug en schouders (bijvoorbeeld cat-cow, wall slides, lichte rotaties) om de beweging rond de schoudergordel soepel te houden.
 
 ---
 
@@ -58,6 +73,14 @@ Richtlijnen:
 | Face pulls | 3×12 | |
 | Serratus wall slides | 3×8 | |
 
+### Korte uitleg oefeningen (Donderdag)
+
+- **Top holds chin-up**: trek jezelf op tot de bovenste positie van de chin-up en houd daar vast, denk aan kin boven de stang en schouders laag en stabiel.
+- **Chin-ups (onderhandse greep)**: zelfde beweging als bij de lichte variant, maar hier mag de inspanning wat hoger zijn; blijf drukken vanuit rug en armen, niet trekken uit de nek.
+- **Shoulder-friendly dips**: laat jezelf maar zo ver zakken dat je schouders zich nog comfortabel voelen, ellebogen langs het lichaam, lichaam recht.
+- **Face pulls**: trek een kabel of elastiek naar je gezicht toe met ellebogen omhoog, voel de achterkant van de schouders en bovenrug werken, houd nek ontspannen.
+- **Serratus wall slides**: sta met rug en armen tegen de muur, “glijd” met je armen omhoog terwijl je ribbenkast neutraal blijft en je schouderbladen mee bewegen.
+
 ---
 
 ## Zaterdag – Onderlichaam (licht & coördinatie)
@@ -68,6 +91,13 @@ Richtlijnen:
 | Step-ups | 3×8 links / 2×8 rechts | |
 | Hip airplane | 3×5 per zijde | |
 | Enkelmobiliteit links | 5 min | |
+
+### Korte uitleg oefeningen (Zaterdag)
+
+- **Single-leg box squat**: ga langzaam zitten op een bankje of doos met één been als hoofdsteun, houd controle in de afdaling en kom rustig omhoog zonder te “vallen”.
+- **Step-ups**: plaats je hele voet op een verhoogd oppervlak, duw jezelf omhoog via dat been en stap gecontroleerd terug; links iets meer herhalingen voor extra aandacht.
+- **Hip airplane**: sta op één been, draai je bekken rustig open en dicht terwijl je romp licht voorover helt; kleine, beheerste bewegingen, niet forceren.
+- **Enkelmobiliteit links**: vergelijkbaar met de ochtend-mobility drill; knie rustig over de tenen bewegen zonder dat de hiel loskomt, lichte rek in de enkel is goed, scherpe pijn niet.
 
 ---
 
