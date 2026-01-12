@@ -46,31 +46,35 @@ README.md               # Repository overzicht en getting started
 **Structuur**:
 ```
 /docs
-  /resultaten/         # Agent output (per agent een subfolder)
-    /{agent-naam}/     # Resultaten van workspace-specifieke agents
-  /procedures          # Algemene procedures (optioneel)
-  /policies           # Algemene policies (optioneel)
-  /guidelines         # Best practices en richtlijnen (optioneel)
-  /references         # Naslagwerk en definities (optioneel)
+  /resultaten/             # Agent output (per agent een subfolder)
+    /{agent-naam}/         # Resultaten van agents
+  /procedures              # Algemene procedures (optioneel)
+  /policies               # Algemene policies (optioneel)
+  /guidelines             # Best practices en richtlijnen (optioneel)
+  /references             # Naslagwerk en definities (optioneel)
 ```
 
-**Agent Resultaten** (alleen voor workspace-specifieke agents):
-- Workspace-specifieke agents leggen hun output vast in `/docs/resultaten/{agent-naam}/`
-- **Verplicht**: Alle gegenereerde content (.md) moet in deze subfolder worden geplaatst.
-- **Niet voor Genesis standaard agents** (moeder, rolbeschrijver, publisher, logos)
-- Alleen voor agents die specifiek voor deze workspace zijn aangemaakt
+**Agent Resultaten**:
+- Workspace-specifieke agents leggen hun output vast in `/docs/resultaten/{agent-naam}/`.
+- De Genesis-agent **publisher** legt publicatie-resultaten vast in `/docs/resultaten/publisher/`.
+- **Niet voor andere Genesis standaard agents** (moeder, rolbeschrijver, logos).
+- Alleen voor agents die daadwerkelijk resultaten genereren (rapporten, analyses, publicaties).
 - Bijvoorbeeld:
   - `/docs/resultaten/data-validator/` - Validatie rapporten (workspace-specifiek)
   - `/docs/resultaten/report-generator/` - Gegenereerde rapporten (workspace-specifiek)
   - `/docs/resultaten/quality-checker/` - Kwaliteitsanalyses (workspace-specifiek)
-- Agent naam altijd lowercase met hyphens
-- Bevat alleen output/resultaten, geen bronbestanden
+  - `/docs/resultaten/publisher/` - Publicatiebestanden (bijv. index.html, navigatie)
+- Agent naam altijd lowercase met hyphens.
+- Bevat alleen output/resultaten, geen bronbestanden.
 
 **Agent Output Formaten**:
-- **Standaard**: Alle agents schrijven resultaten in Markdown (.md) of Python (.py)
-- **Uitzondering**: Publisher mag alle formaten creëren (HTML, etc.)
-- Markdown voor documentatie, rapporten, analyses
-- Python voor scripts, utilities, automation
+- **Standaard**: Alle agents schrijven resultaten in Markdown (.md) of Python (.py).
+- **Uitzondering Publisher**:
+  - Publisher mag extra formaten creëren (bijvoorbeeld HTML) voor publicatie.
+  - `index.html` in `/docs/` is de enige toegestane HTML op rootniveau van `docs/`, omdat GitHub Pages deze verwacht.
+  - Overige Publisher-output (ook HTML) gaat in `/docs/resultaten/publisher/`.
+- Markdown voor documentatie, rapporten, analyses.
+- Python voor scripts, utilities, automation.
 
 **Eisen**:
 - Elk document in Markdown (.md) format (tenzij Python script of Publisher output)
@@ -96,7 +100,7 @@ README.md               # Repository overzicht en getting started
 - `CODEOWNERS` - Verantwoordelijken per gebied
 
 **Eisen**:
-- `beleid.md` bevat minimaal: context, scope, niet-in-scope (zie Constitutie Artikel 9)
+- `beleid.md` bevat minimaal: context, scope, niet-in-scope (zie Gedragscode Artikel 9)
 - Alle governance documenten op B1 taalniveau
 
 #### `/templates` - Templates
@@ -205,6 +209,19 @@ _site/
 ### `LICENSE` (Optioneel)
 - Alleen indien de repository publiekelijk wordt gedeeld
 - Kies passende licentie (bijv. MIT, CC-BY-4.0 voor documentatie)
+
+### Uitzonderingen: Hulpscripts in de root
+
+In principe staan in de root alleen governance- en overzichtsbestanden.
+Er zijn **twee toegestane uitzonderingen** voor kleine, praktische hulpscripts:
+
+- `f.bat`  – lokaal script om snel te formatteren of testen (conform beleid van de workspace).
+- `push.bat` – lokaal script om snel wijzigingen te committen en te pushen.
+
+Kenmerken van deze uitzonderingen:
+- Alleen eenvoudige hulpscripts, geen complexe logica.
+- Gebruik is optioneel en bedoeld voor lokale ontwikkelgemak.
+- Ze mogen geen inhoudelijke documenten vervangen of verbergen.
 
 ---
 
@@ -367,7 +384,7 @@ Gebruik deze checklist bij nieuwe workspace of review:
 - [ ] Code blocks hebben taal specificatie
 
 ### Governance
-- [ ] `beleid.md` conform Artikel 9 van Constitutie
+- [ ] `beleid.md` conform Artikel 9 van Gedragscode
 - [ ] Geen conflicten met centrale gedragscode
 - [ ] Rolbeschrijvingen aanwezig voor actieve agents (indien van toepassing)
 
@@ -421,7 +438,7 @@ Uitzonderingen op deze standaard zijn toegestaan wanneer:
 
 ## Referenties
 
-- [Constitutie Artikel 9](gedragscode.md#artikel-9) - Minimale vereisten voor beleid
+- [Gedragscode Artikel 9](gedragscode.md#artikel-9) - Minimale vereisten voor beleid
 - [Logos Rolbeschrijving](rolbeschrijvingen/logos.md) - Git/GitHub expert
 - [Markdown Guide](https://www.markdownguide.org/) - Markdown best practices
 

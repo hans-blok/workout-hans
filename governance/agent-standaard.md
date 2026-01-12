@@ -187,6 +187,25 @@ description: <Korte beschrijving>
 
 **Karakter**: Executable automation
 
+**Plaatsing van Output**:
+- Agents die een **schema** (planning, overzicht, stappenplan) genereren, schrijven dit direct weg als Markdown-document in de daarvoor bedoelde documentstructuur (bijvoorbeeld onder `docs/` of `docs/resultaten/<agent-naam>/`).
+- Agents die een **plan** (ontwerp, voorstel, werk-in-uitvoering) genereren, plaatsen dit standaard in de tijdelijke context-map `temp/` (bijvoorbeeld `temp/<onderwerp>-plan.md`).
+- Structurele documenten voor eindgebruik (schema's, checklists, handleidingen) horen in `docs/` of onder `docs/resultaten/`.
+- Tijdelijke of experimentele documenten (plannen, varianten, voorstellen) horen in `temp/` en worden niet gecommit.
+
+**Toegestane Bestandsformaten**:
+- Standaardagents in document-repositories genereren alleen:
+    - Markdown-bestanden (`.md`) voor documentatie, schema's en rapporten.
+    - Optioneel Python-scripts (`.py`) als onderdeel van automation of tooling.
+- **Niet toegestaan voor standaardagents**:
+    - Geen directe generatie van PDF-bestanden.
+    - Geen directe generatie van HTML-bestanden of andere publicatieformaten.
+    - Geen binaire documenten (zoals Word, PowerPoint) of afbeeldingen.
+- **Uitzondering: Publisher-agent**:
+    - De publisher-agent heeft als kerntaak het maken van publicatieformaten (bijvoorbeeld HTML) op basis van Markdown-bronbestanden.
+    - Andere publicatieformaten (zoals PDF) zijn alleen toegestaan als dit expliciet is vastgelegd in de rolbeschrijving van de publisher.
+    - Andere agents die publicatie nodig hebben, leveren hun output aan als Markdown en laten de omzetting naar andere formaten over aan de publisher.
+
 **Verplichte structuur**:
 ```python
 #!/usr/bin/env python3

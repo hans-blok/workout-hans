@@ -1,8 +1,8 @@
 @echo off
 setlocal
 
-REM Switch to repository root
-cd /d "%~dp0.."
+REM Switch to this repository root (folder where this script lives)
+cd /d "%~dp0%"
 
 REM This batch file is a simple wrapper to execute the fetch-genesis.py Python script.
 REM It passes all command-line arguments to the Python script.
