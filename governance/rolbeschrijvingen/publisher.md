@@ -122,6 +122,7 @@ Belangrijk: Publisher gaat uitsluitend over presentatie (UX-design, navigatie en
 
 ### Wat Publisher WEL doet
  - ✅ Markdown bronbestanden organiseren voor publicatie
+- ✅ HTML-pagina's genereren uit markdown (Publisher is de enige agent die HTML maakt)
 - ✅ Index.md genereren (standaard)
 - ✅ Index.html genereren (op verzoek voor opmaak)
 - ✅ GitHub Pages setup en configuratie

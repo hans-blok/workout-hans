@@ -2,7 +2,7 @@
 
 **Datum**: 12 januari 2026  
 **Doel**: Lichaam soepel houden, gewrichten voorbereiden op de dag, herstel ondersteunen naast kracht- en tennistraining.  
-**Frequentie**: Elke ochtend, ongeveer 15–20 minuten.  
+**Frequentie**: Elke ochtend, ongeveer 8–10 minuten.  
 **Voor**: Hans (55 jaar, klompvoet links, doet kracht- en tennistraining).
 
 ---
@@ -16,22 +16,53 @@
 
 ---
 
-## Dagelijks Ochtendritueel (15–20 minuten)
+
+## Weekindeling en variatie
+
+ Gebruik twee korte schema's en wissel per dag af:
+**Voorstel (maar je mag schuiven):**
+
+- Ma, Wo, Vr: **Routine A – Rustige start na het ontbijt**
+- Di, Do, Za: **Routine B – Iets actievere start (kan ook vóór ontbijt als dat prettiger voelt)**
+- Zo: Kies zelf A of B, of neem rust.
+
+> Op sommige dagen voelt bewegen met een **iets legere maag** prettiger (vooral bij houdingen met meer buigen of draaien). Als jij merkt dat bepaalde oefeningen fijner zijn vóór ontbijt, kun je ze daarheen verplaatsen.
+
+---
+
+## Routine A – Rustige mobiliteit na het ontbijt (±10 minuten)
 
 | Volgorde | Oefening | Duur / Herhalingen | Focus |
 |----------|----------|--------------------|-------|
-| 1 | Zittende ademhaling | 2–3 minuten | Rustige neusademhaling, langer uit dan in |
-| 2 | Nek- en schouderrollen | 6–8 per richting | Spanning uit nek en schouders |
-| 3 | Kat-Koe (op handen en knieën) | 10–12 herhalingen | Wervelkolom soepel maken |
-| 4 | Rug rol/child's pose afwisseling | 3× 3–5 ademhalingen per positie | Lage rug ontspannen |
-| 5 | Heupcirkels op handen en knieën | 6–8 per been, per richting | Heupmobiliteit, vooral links |
-| 6 | Lage lunge (voor heupbuiger) | 2× 20–30 sec per kant | Voorzijde heup openen, rustig |
-| 7 | Enkelmobiliteit links (wand- of knie-naar-teen drill) | 2–3× 8–10 herhalingen | Enkel links soepeler, gecontroleerde beweging |
-| 8 | Staande side stretches | 2× 3–5 ademhalingen per zijde | Flanken en zijkant romp verlengen |
-| 9 | Zachte draai zittend | 2× 3–5 ademhalingen per zijde | Bovenrug rotatie |
-| 10 | Afsluiten met 1 minuut rustige ademhaling | 1 minuut | Hartslag laten zakken, lichaam scannen |
+| 1 | Zittende ademhaling | 2 minuten | Rustige neusademhaling, langer uit dan in |
+| 2 | Nek- en schouderrollen | 6 per richting | Spanning uit nek en schouders |
+| 3 | Kat-Koe (op handen en knieën) | 8–10 herhalingen | Wervelkolom soepel maken |
+| 4 | Rug rol/child's pose afwisseling | 2× 3–4 ademhalingen per positie | Lage rug ontspannen |
+| 5 | Heupcirkels op handen en knieën | 5 per been, per richting | Heupmobiliteit, vooral links |
+| 6 | Enkelmobiliteit links (wand- of knie-naar-teen drill) | 2× 8 herhalingen | Enkel links soepeler, gecontroleerde beweging |
+
+Deze variant is extra rustig en is bedoeld **na het ontbijt**, als zachte start van de dag.
 
 ---
+
+## Routine B – Actievere mobiliteit (kan ook vóór ontbijt) (±10 minuten)
+
+| Volgorde | Oefening | Duur / Herhalingen | Focus |
+|----------|----------|--------------------|-------|
+| 1 | Staande ademhaling | 1–2 minuten | Rustige ademhaling, houding vinden |
+| 2 | Kat-Koe (op handen en knieën) | 8–10 herhalingen | Rug wakker maken |
+| 3 | Heupcirkels op handen en knieën | 5 per been, per richting | Heupmobiliteit |
+| 4 | Lage lunge (voor heupbuiger) | 1× 20 sec per kant | Voorzijde heup openen, rustig |
+| 5 | Staande side stretches | 2× 3 ademhalingen per zijde | Flanken en zijkant romp verlengen |
+| 6 | Zachte draai zittend of staand | 2× 3 ademhalingen per zijde | Bovenrug rotatie |
+
+Deze variant is iets actiever en kan, als dat voor jou prettig voelt, ook **vóór het ontbijt** gedaan worden. Kies dan vooral voor rustige, niet-schokkende bewegingen (zoals hierboven) en sla diepe vooroverbuigingen of sterke draaien op volle maag liever over.
+
+---
+
+## Uitleg bij de belangrijkste oefeningen
+
+### 1. Zittende of staande ademhaling (1–2 minuten)
 
 ## Uitleg per oefening
 
@@ -150,5 +181,5 @@ Zo blijf je in beweging en houd je de routine vol, zonder je lichaam te overbela
 - [x] Schema ondersteunt **mobiliteit en soepelheid**, geen zware belasting.
 - [x] Houdt rekening met **klompvoet links** (extra enkel- en heupaandacht, geen sprongen).
 - [x] Past naast bestaand kracht- en tennisprogramma (kort, lage intensiteit).
-- [x] Eenvoudig te volgen in ongeveer **15–20 minuten** per ochtend.
+- [x] Eenvoudig te volgen in ongeveer **10 minuten** per ochtend.
 - [x] Geen medisch of voedingsadvies, alleen lichte yoga/mobility.

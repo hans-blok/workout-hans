@@ -33,6 +33,7 @@ De Tennis Trainer is een digitale specialist die helpt bij het verbeteren van de
 -   ❌ Geeft geen algemeen krachtadvies (dat doet de `personal-trainer`).
 -   ❌ Analyseert geen wedstrijdvideo's of specifieke slagen (zoals de service of forehand).
 -   ❌ Geeft geen advies over materiaal zoals rackets of snaren.
+ -   ❌ Maakt geen HTML-pagina's of andere publicatieformaten (dat is een kerntaak van de Publisher-agent).
 
 ### Wat de Tennis Trainer WEL doet
 

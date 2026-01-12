@@ -86,9 +86,10 @@ def convert_to_html(input_file, output_file, standalone=True):
     
     if standalone:
         cmd.append("--standalone")
-        # Gebruik een cleane, minimalistische CSS die aansluit bij Japans minimalisme
-        # (eenvoud, whitespace, natuurlijke kleuren, strakke lijnen)
-        cmd.extend(["-c", "https://cdn.simplecss.org/simple.min.css"])
+        # Gebruik een eigen, minimalistische CSS in deze repo
+        # Pad is relatief ten opzichte van de HTML-output (standaard: docs/resultaten/publisher)
+        # Vanuit docs/resultaten/publisher/ naar docs/styles/ = ../../styles
+        cmd.extend(["-c", "../../styles/publisher.css"])
     
     try:
         subprocess.run(cmd, check=True, capture_output=True, text=True)
@@ -164,7 +165,7 @@ Output:
         """
     )
     
-        parser.add_argument("files", nargs="+", help="Markdown bronbestand(en) om te publiceren")
+    parser.add_argument("files", nargs="+", help="Markdown bronbestand(en) om te publiceren")
     parser.add_argument("--output-dir", type=Path, default=Path.cwd(),
                        help="Output directory (default: huidige directory)")
     parser.add_argument("--check-only", action="store_true",

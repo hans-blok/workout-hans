@@ -11,6 +11,20 @@
 
 ---
 
+## Weekindeling en richtlijnen
+
+- **Maandag**: Onderlichaam (zwaarder, kracht & symmetrie)
+- **Dinsdag**: Scapula & lichte chin-ups (voor of rond tennis)
+- **Donderdag**: Bovenlichaam (armen, borst, scapula)
+- **Zaterdag**: Onderlichaam licht & coördinatie
+
+Richtlijnen:
+- Plan tussen deze dagen minimaal één **rustdag of alleen lichte mobiliteit**.
+- Begin elke sessie met **5–10 minuten warming-up** (wandelen, lichte dynamische bewegingen, geen scherpe sprongen).
+- Stop een set als de techniek duidelijk achteruitgaat; kwaliteit gaat vóór extra herhalingen.
+
+---
+
 ## Maandag – Onderlichaam (kracht & symmetrie)
 
 | Oefening | Sets x Reps | Notitie |
@@ -66,3 +80,22 @@
 - Kin stabiel boven de stang
 - Sterke, dikke armen zonder schouderklachten
 - Betere links-rechts balans (ook relevant voor skiën)
+
+---
+
+## Core voor tennis (2× per week, na kracht)
+
+Doel: een sterke, stabiele romp die **rotatie goed kan controleren**, zodat je bij tennis kracht kunt overbrengen zonder dat de onderrug alles moet opvangen.
+
+**Wanneer:**
+- Voeg dit blok toe na de training op **Maandag** en **Donderdag**.
+- Houd het kort: **ongeveer 10–15 minuten extra**.
+
+| Oefening | Sets x Reps / Tijd | Focus |
+|----------|---------------------|-------|
+| Dead bug | 3×6–8 per zijde | Lage rug op de grond houden, rustig bewegen |
+| Bird dog | 3×6–8 per zijde | Romp stil, arm en tegenovergesteld been bewegen |
+| Side plank (links/rechts) | 3×20–30 sec per zijde | Zijkant romp, extra aandacht links |
+| Pallof press (met band of kabel) | 3×8–10 per zijde | Anti-rotatie, vergelijkbaar met weerstand bij een tennis-swing |
+
+Je mag het aantal herhalingen of tijd per set rustig opbouwen. Als je merkt dat de kwaliteit van de beweging minder wordt, rond je de set eerder af.

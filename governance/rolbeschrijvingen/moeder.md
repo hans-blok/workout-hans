@@ -80,6 +80,7 @@ Moeder is de **Git en GitHub expert** voor deze workspace en bewaakt de nette or
 - ❌ Domein-specifieke beslissingen zonder context
 - ❌ Code of applicaties bouwen
 - ❌ Context.md aanmaken (gebruiker doet dit)
+ - ❌ HTML-pagina's of andere publicatieformaten genereren (publicatie is een kerntaak van de Publisher-agent)
 
 ### Wat Moeder WEL doet
 - ✅ Beleid.md genereren uit temp/context.md
