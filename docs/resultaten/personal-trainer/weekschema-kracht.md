@@ -3,11 +3,19 @@
 
 ## Uitgangspunten
 - Focus op scapulaire controle (kwaliteit boven volume)
-- Chin-ups (onderhandse greep) als primaire trekbeweging
+- Chin-ups als primaire trekbeweging, nu **voorkeur met ringen**
 - Shoulder-friendly dips voor borst en triceps
 - Squats altijd op dezelfde dag als deadlifts
 - Extra aandacht voor linkerbeen (klompvoet, asymmetrie)
 - Geen oefeningen die scapulaire depressie ondermijnen
+
+### Aanpassing i.v.m. golferselleboog en ringen
+
+- Gebruik waar mogelijk **ringen met een neutrale greep** (handpalmen naar elkaar toe).
+- Kies altijd een **pijnvrij of bijna pijnvrij bereik**. Scherpe pijn aan de binnenkant van de elleboog = stoppen.
+- Bouw de belasting rustig op: eerst **lagere herhalingen** en controle, daarna pas meer volume.
+- Bij meer dan lichte irritatie: schuif zwaardere chin-up werksets door naar een andere week en gebruik meer **ring rows** en scapula-oefeningen.
+- Bij aanhoudende of toenemende klachten: overleg met een arts of fysiotherapeut.
 
 ---
 
@@ -29,11 +37,11 @@ Richtlijnen:
 
 | Oefening | Sets x Reps | Notitie |
 |----------|-------------|---------|
-| Romanian Deadlift | 4×5 | |
-| Goblet Squat | 4×6–8 | |
-| Bulgarian Split Squat | 4×6 links / 3×6 rechts | |
-| Single-leg calf raises | 4×10 links / 2×10 rechts | |
-| Side plank | 3×30–45 sec | extra set links |
+| Romanian Deadlift | 4×5 | Rust 2–3 min tussen sets |
+| Goblet Squat | 4×6–8 | Rust 2–3 min tussen sets |
+| Bulgarian Split Squat | 4×6 links / 3×6 rechts | Rust 2 min tussen sets, 30–45 sec tussen benen |
+| Single-leg calf raises | 4×10 links / 2×10 rechts | Rust 60–90 sec tussen sets |
+| Side plank | 3×30–45 sec | extra set links, rust 45–60 sec |
 
 ### Korte uitleg oefeningen (Maandag)
 
@@ -45,20 +53,20 @@ Richtlijnen:
 
 ---
 
-## Dinsdag – Scapula & Chin-ups (45 min, vóór tennis)
+## Dinsdag – Scapula & Ring-chin-ups (45 min, vóór tennis)
 
 | Oefening | Sets x Reps | Notitie |
 |----------|-------------|---------|
-| Scapular hangs | 4×25–30 sec | |
-| Scapular pull-ups | 5×5 | |
-| Chin-ups (licht) | 3×4 | |
-| Mobiliteit | | thoracic + schouder |
+| Ring scapular hangs (neutrale greep) | 4×20–30 sec | ontspannen greep, geen scherpe elleboogpijn; rust 45–60 sec |
+| Ring scapular pull-ups (kleine range) | 4×5 | focus op schouderbladen, ellebogen bijna gestrekt; rust 60–90 sec |
+| Ring chin-ups (licht, neutrale greep) | 3×3–5 | ruim herhalingen overhouden, stoppen bij duidelijke elleboogpijn; rust 2–3 min |
+| Mobiliteit | | thoracic + schouder, rust naar behoefte |
 
 ### Korte uitleg oefeningen (Dinsdag)
 
-- **Scapular hangs**: hang aan de stang met gestrekte armen, laat je schouders gecontroleerd “uitzakken” en trek ze daarna zachtjes omlaag en iets naar achteren zonder je ellebogen te buigen.
-- **Scapular pull-ups**: begin in hang, beweeg alleen vanuit de schouderbladen (naar beneden en naar achteren) zodat je borst iets richting stang komt, armen blijven bijna gestrekt.
-- **Chin-ups (licht)**: onderhandse greep, trek jezelf op tot je kin boven de stang komt, laat jezelf rustig en gecontroleerd zakken; kies een niveau waarbij je ruim herhalingen “over” houdt.
+- **Ring scapular hangs (neutrale greep)**: hang aan de ringen met gestrekte armen, handpalmen naar elkaar toe. Laat je schouders gecontroleerd “uitzakken” en trek ze daarna zachtjes omlaag en iets naar achteren zonder je ellebogen te buigen. Greep mag stevig zijn, maar niet krampachtig.
+- **Ring scapular pull-ups (kleine range)**: begin hangend aan de ringen, beweeg alleen vanuit de schouderbladen (naar beneden en naar achteren) zodat je borst iets richting ringen komt; armen blijven bijna gestrekt. Stop als de elleboog begint te zeuren.
+- **Ring chin-ups (licht, neutrale greep)**: trek jezelf op aan de ringen met handpalmen naar elkaar toe en laat de ringen vrij meedraaien. Trek tot een comfortabele hoogte (hoeft niet altijd kin boven de stang) en laat jezelf rustig zakken. Kies een niveau waarbij je ruim herhalingen “over” houdt en geen duidelijke elleboogpijn voelt.
 - **Mobiliteit (thoracic + schouder)**: korte reeks oefeningen voor bovenrug en schouders (bijvoorbeeld cat-cow, wall slides, lichte rotaties) om de beweging rond de schoudergordel soepel te houden.
 
 ---
@@ -67,17 +75,17 @@ Richtlijnen:
 
 | Oefening | Sets x Reps | Notitie |
 |----------|-------------|---------|
-| Top holds chin-up | 5×15–25 sec | |
-| Chin-ups (onderhandse greep) | 4×4–6 | |
-| Shoulder-friendly dips | 3–4×5–8 | |
-| Face pulls | 3×12 | |
-| Serratus wall slides | 3×8 | |
+| Ring rows (isometrische hold halverwege) | 4×15–25 sec | voetenpositie zo kiezen dat het pijnvrij blijft; rust 60–90 sec |
+| Ring chin-ups (neutrale greep) | 3–4×3–5 | zwaarder dan dinsdag, maar nog steeds binnen pijngrens; rust 2–3 min |
+| Shoulder-friendly dips | 3–4×5–8 | stoppen bij elleboog- of schouderpijn; rust 90–120 sec |
+| Face pulls | 3×12 | rust 60–90 sec |
+| Serratus wall slides | 3×8 | rust 45–60 sec |
 
 ### Korte uitleg oefeningen (Donderdag)
 
-- **Top holds chin-up**: trek jezelf op tot de bovenste positie van de chin-up en houd daar vast, denk aan kin boven de stang en schouders laag en stabiel.
-- **Chin-ups (onderhandse greep)**: zelfde beweging als bij de lichte variant, maar hier mag de inspanning wat hoger zijn; blijf drukken vanuit rug en armen, niet trekken uit de nek.
-- **Shoulder-friendly dips**: laat jezelf maar zo ver zakken dat je schouders zich nog comfortabel voelen, ellebogen langs het lichaam, lichaam recht.
+- **Ring rows (isometrische hold halverwege)**: stel de ringhoogte en je voetpositie zo in dat je in een schuine lijn onder de ringen hangt. Trek jezelf tot halverwege op en houd daar vast. Voel spanning in rug en armen, maar geen scherpe pijn in de elleboog. Hoe horizontaler je hangt, hoe zwaarder.
+- **Ring chin-ups (neutrale greep)**: trek jezelf op aan de ringen met handpalmen naar elkaar toe. Laat de ringen vrij meebewegen zodat de pols een natuurlijke positie kan zoeken. Blijf ruim weg van falen; stop als de elleboog duidelijk protesteert.
+- **Shoulder-friendly dips**: laat jezelf maar zo ver zakken dat je schouders en ellebogen zich comfortabel voelen, ellebogen langs het lichaam, lichaam recht. Bij duidelijke elleboogpijn kun je een set overslaan of vervangen door extra ring rows.
 - **Face pulls**: trek een kabel of elastiek naar je gezicht toe met ellebogen omhoog, voel de achterkant van de schouders en bovenrug werken, houd nek ontspannen.
 - **Serratus wall slides**: sta met rug en armen tegen de muur, “glijd” met je armen omhoog terwijl je ribbenkast neutraal blijft en je schouderbladen mee bewegen.
 
@@ -87,10 +95,10 @@ Richtlijnen:
 
 | Oefening | Sets x Reps | Notitie |
 |----------|-------------|---------|
-| Single-leg box squat | 4×5 links / 3×5 rechts | |
-| Step-ups | 3×8 links / 2×8 rechts | |
-| Hip airplane | 3×5 per zijde | |
-| Enkelmobiliteit links | 5 min | |
+| Single-leg box squat | 4×5 links / 3×5 rechts | Rust 90–120 sec tussen sets, 30–45 sec tussen benen |
+| Step-ups | 3×8 links / 2×8 rechts | Rust 60–90 sec tussen sets |
+| Hip airplane | 3×5 per zijde | Rust 45–60 sec tussen sets |
+| Enkelmobiliteit links | 5 min | doorlopend blok, geen vaste rust |
 
 ### Korte uitleg oefeningen (Zaterdag)
 
@@ -105,6 +113,7 @@ Richtlijnen:
 - Nooit trainen tot falen
 - Eerst progressie in controle (langere holds, langzamere eccentrics)
 - Stop zodra scapula-positie verliest
+- Bij duidelijke of aanhoudende pijn aan de binnenkant van de elleboog: oefening lichter maken, vervangen of stoppen, en zo nodig een arts of fysiotherapeut raadplegen.
 
 ## Doel
 - Kin stabiel boven de stang
@@ -123,9 +132,9 @@ Doel: een sterke, stabiele romp die **rotatie goed kan controleren**, zodat je b
 
 | Oefening | Sets x Reps / Tijd | Focus |
 |----------|---------------------|-------|
-| Dead bug | 3×6–8 per zijde | Lage rug op de grond houden, rustig bewegen |
-| Bird dog | 3×6–8 per zijde | Romp stil, arm en tegenovergesteld been bewegen |
-| Side plank (links/rechts) | 3×20–30 sec per zijde | Zijkant romp, extra aandacht links |
-| Pallof press (met band of kabel) | 3×8–10 per zijde | Anti-rotatie, vergelijkbaar met weerstand bij een tennis-swing |
+| Dead bug | 3×6–8 per zijde | Lage rug op de grond houden, rustig bewegen; rust 30–45 sec |
+| Bird dog | 3×6–8 per zijde | Romp stil, arm en tegenovergesteld been bewegen; rust 30–45 sec |
+| Side plank (links/rechts) | 3×20–30 sec per zijde | Zijkant romp, extra aandacht links; rust 30–45 sec |
+| Pallof press (met band of kabel) | 3×8–10 per zijde | Anti-rotatie, vergelijkbaar met weerstand bij een tennis-swing; rust 30–45 sec |
 
 Je mag het aantal herhalingen of tijd per set rustig opbouwen. Als je merkt dat de kwaliteit van de beweging minder wordt, rond je de set eerder af.
